@@ -3,6 +3,7 @@
   "repository": "https://github.com/vigor-13/monorepo-boilerplate.git",
   "author": "vigor-13 <vigor13.dev@gmail.com>",
   "license": "MIT",
+  "packageManager": "yarn@3.2.1",
   "private": true,
   "workspaces": [
     "packages/*"
