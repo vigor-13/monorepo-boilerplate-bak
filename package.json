@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo-boilerplate/root",
+  "repository": "https://github.com/vigor-13/monorepo-boilerplate.git",
+  "author": "vigor-13 <vigor13.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
