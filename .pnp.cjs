@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.0.2"],\
             ["@commitlint/config-conventional", "npm:17.0.2"],\
             ["husky", "npm:8.0.1"],\
+            ["prettier", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -326,6 +327,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.0.2"],\
             ["@commitlint/config-conventional", "npm:17.0.2"],\
             ["husky", "npm:8.0.1"],\
+            ["prettier", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -1434,6 +1436,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/path-type-npm-4.0.0-10d47fc86a-5b1e2daa24.zip/node_modules/path-type/",\
           "packageDependencies": [\
             ["path-type", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prettier", [\
+        ["npm:2.6.2", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.6.2-05918420da-48d08dde8e.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
