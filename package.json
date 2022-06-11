@@ -12,7 +12,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint './packages/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint --fix './packages/**/*.{ts,tsx,js,jsx}'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
@@ -21,6 +22,7 @@
     "@typescript-eslint/parser": "latest",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
