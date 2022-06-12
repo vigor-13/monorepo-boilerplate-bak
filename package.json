@@ -25,7 +25,10 @@
     "lint": "eslint './packages/**/*.{ts,tsx,js,jsx}'",
     "lint:fix": "eslint --fix './packages/**/*.{ts,tsx,js,jsx}'",
     "test:unit": "jest",
-    "test:coverage": "yarn test:unit --watchAll=false --coverage"
+    "test:coverage": "yarn test:unit --watchAll=false --coverage",
+    "clean": "yarn clean:dist && yarn clean:modules",
+    "clean:dist": "manypkg exec rimraf dist",
+    "clean:modules": "rimraf node_modules"
   },
   "dependencies": {
     "@changesets/cli": "^2.23.0",
@@ -46,6 +49,7 @@
     "husky": "^8.0.1",
     "jest": "^28.1.1",
     "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
     "ts-jest": "^28.0.4",
     "typescript": "^4.7.3"
   }
