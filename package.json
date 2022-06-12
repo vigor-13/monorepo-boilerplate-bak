@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-boilerplate/root",
-  "repository": "https://github.com/vigor-13/monorepo-boilerplate.git",
+  "repository": "https://github.com/vigor-13/monorepo-boilerplate",
   "author": "vigor-13 <vigor13.dev@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.2.1",
@@ -15,12 +15,16 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "pkg": "manypkg run",
+    "pkg:all": "manypkg exec",
+    "pkg:check": "manypkg check",
+    "pkg:fix": "manypkg fix",
     "lint": "eslint './packages/**/*.{ts,tsx,js,jsx}'",
     "lint:fix": "eslint --fix './packages/**/*.{ts,tsx,js,jsx}'",
     "test:unit": "jest",
     "test:coverage": "yarn test:unit --watchAll=false --coverage"
   },
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@manypkg/cli": "^0.19.1",
