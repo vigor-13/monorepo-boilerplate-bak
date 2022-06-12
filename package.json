@@ -5,6 +5,9 @@
   "license": "MIT",
   "packageManager": "yarn@3.2.1",
   "private": true,
+  "engines": {
+    "node": ">=16.14.2"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
