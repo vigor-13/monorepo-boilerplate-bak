@@ -26,6 +26,7 @@
     "lint:fix": "eslint --fix './packages/**/*.{ts,tsx,js,jsx}'",
     "test:unit": "jest",
     "test:coverage": "yarn test:unit --watchAll=false --coverage",
+    "test:commitlint": "yarn commitlint --from HEAD~1 --to HEAD --verbose",
     "clean": "yarn clean:dist && yarn clean:modules",
     "clean:dist": "manypkg exec rimraf dist",
     "clean:modules": "rimraf node_modules"
