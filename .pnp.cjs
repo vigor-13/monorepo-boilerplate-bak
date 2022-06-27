@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.0.2"],\
             ["@manypkg/cli", "npm:0.19.1"],\
             ["@types/jest", "npm:28.1.1"],\
+            ["@types/node", "npm:18.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:1f5dcb1b19e975516f7b1b9891a6d034de3a31a622628c0704b701a25ef1a1407c79922c02db913aa610b0a735ea7c2552e3e0877af57c78c882c94cdd463c41#npm:5.27.1"],\
             ["@typescript-eslint/parser", "virtual:1f5dcb1b19e975516f7b1b9891a6d034de3a31a622628c0704b701a25ef1a1407c79922c02db913aa610b0a735ea7c2552e3e0877af57c78c882c94cdd463c41#npm:5.27.1"],\
             ["eslint", "npm:8.17.0"],\
@@ -1764,6 +1765,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.0.2"],\
             ["@manypkg/cli", "npm:0.19.1"],\
             ["@types/jest", "npm:28.1.1"],\
+            ["@types/node", "npm:18.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:1f5dcb1b19e975516f7b1b9891a6d034de3a31a622628c0704b701a25ef1a1407c79922c02db913aa610b0a735ea7c2552e3e0877af57c78c882c94cdd463c41#npm:5.27.1"],\
             ["@typescript-eslint/parser", "virtual:1f5dcb1b19e975516f7b1b9891a6d034de3a31a622628c0704b701a25ef1a1407c79922c02db913aa610b0a735ea7c2552e3e0877af57c78c882c94cdd463c41#npm:5.27.1"],\
             ["eslint", "npm:8.17.0"],\
@@ -2129,6 +2131,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-17.0.42-6d96681ad5-a200cd87e4.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:17.0.42"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.0.0-c8497066c5-aab2b32572.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
