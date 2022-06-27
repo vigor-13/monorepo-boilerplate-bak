@@ -1279,6 +1279,7 @@ __metadata:
     prettier: ^2.6.2
     rimraf: ^3.0.2
     ts-jest: ^28.0.4
+    ts-node: ^10.8.1
     typescript: ^4.7.3
   languageName: unknown
   linkType: soft
@@ -7764,7 +7765,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.0":
+"ts-node@npm:^10.8.0, ts-node@npm:^10.8.1":
   version: 10.8.1
   resolution: "ts-node@npm:10.8.1"
   dependencies:
