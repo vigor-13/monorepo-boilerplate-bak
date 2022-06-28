@@ -19,5 +19,7 @@ module.exports = {
     project: ['tsconfig.eslint.json'],
   },
   plugins: ['@typescript-eslint'],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-unused-vars": ["warn"]
+  },
 };
