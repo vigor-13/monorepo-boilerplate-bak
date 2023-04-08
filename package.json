@@ -7,7 +7,8 @@
   "scripts": {
     "prepare": "husky install",
     "format:check": "prettier --check packages/**/**/src --cache",
-    "format:write": "prettier --write packages/**/**/src --cache"
+    "format:write": "prettier --write packages/**/**/src --cache",
+    "lint": "eslint packages/**/**/src --ext .ts,.tsx --config .eslintrc --cache"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,16 @@
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
     "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.0",
     "prettier": "^2.8.7",
     "turbo": "^1.8.8",
