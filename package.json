@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo-boilerplate-turbo/root",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigor-13/monorepo-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vigor-13/monorepo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vigor-13/monorepo-boilerplate#readme",
+  "devDependencies": {
+    "turbo": "^1.8.8"
+  }
+}
