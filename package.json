@@ -5,7 +5,9 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format:check": "prettier --check packages/**/**/src --cache",
+    "format:write": "prettier --write packages/**/**/src --cache"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
     "husky": "^8.0.0",
+    "prettier": "^2.8.7",
     "turbo": "^1.8.8"
   }
 }
