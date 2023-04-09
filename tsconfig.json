@@ -1,5 +1,12 @@
 {
   "extends": "./configs/tsconfig.base.json",
-  "include": ["packages"],
-  "exclude": ["**/node_modules"]
+  "include": ["packages", "scripts"],
+  "exclude": ["**/node_modules"],
+
+  /* when using ts-node, override the import/export method of module to commonjs method. */
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
