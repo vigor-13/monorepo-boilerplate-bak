@@ -4,6 +4,7 @@
   "author": "",
   "license": "ISC",
   "private": true,
+  "keywords": [],
   "scripts": {
     "prepare": "husky install",
     "format:check": "prettier --check packages/**/**/src --cache",
@@ -11,15 +12,6 @@
     "lint": "eslint packages/**/**/src --ext .ts,.tsx --config .eslintrc --cache",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vigor-13/monorepo-boilerplate.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/vigor-13/monorepo-boilerplate/issues"
-  },
-  "homepage": "https://github.com/vigor-13/monorepo-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
